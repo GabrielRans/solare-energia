@@ -2154,3 +2154,35 @@ a {
     margin-top: 40px;
   }
 }
+/* ===== AJUSTE FINAL - HERO DESKTOP ===== */
+
+@media (min-width: 951px) {
+  .hero {
+    padding: 125px 0 75px;
+  }
+
+  .hero-container {
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 55px;
+  }
+
+  .hero-content {
+    max-width: 620px;
+  }
+
+  .hero h1 {
+    max-width: 620px;
+    font-size: clamp(3.5rem, 5vw, 4.5rem);
+    line-height: 0.98;
+    letter-spacing: -0.055em;
+  }
+
+  .hero-description {
+    max-width: 600px;
+    margin-bottom: 28px;
+  }
+
+  .hero-features {
+    margin-top: 26px;
+  }
+}
