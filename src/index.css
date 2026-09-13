@@ -1391,3 +1391,26 @@ code {
     height: 54px;
   }
 }
+
+/* ===== AJUSTE VISUAL 01 ===== */
+
+a {
+  text-decoration: none;
+}
+
+.logo,
+.header-button,
+.btn-primary,
+.btn-secondary,
+.service-card a {
+  text-decoration: none;
+}
+
+.section-heading h2 {
+  color: #0f172a;
+}
+
+.service-card h3,
+.benefit-card h3 {
+  color: #0f172a;
+}
