@@ -2186,3 +2186,45 @@ a {
     margin-top: 26px;
   }
 }
+
+/* ===== AJUSTE FINAL - HERO DESKTOP ===== */
+
+@media (min-width: 951px) {
+  .hero {
+    padding: 125px 0 75px;
+  }
+
+  .hero-container {
+    grid-template-columns: 1.12fr 0.88fr;
+    gap: 45px;
+  }
+
+  .hero-content {
+    max-width: 700px;
+  }
+
+  .hero h1 {
+    max-width: 700px;
+
+    font-size: clamp(3.2rem, 4.2vw, 4rem);
+    line-height: 1;
+    letter-spacing: -0.05em;
+  }
+
+  .hero-description {
+    max-width: 620px;
+    margin-bottom: 26px;
+  }
+
+  .hero-features {
+    margin-top: 24px;
+  }
+
+  .hero-visual {
+    min-height: 470px;
+  }
+
+  .solar-visual {
+    transform: scale(0.92);
+  }
+}
