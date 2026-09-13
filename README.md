@@ -75,6 +75,6 @@ export default defineConfig([
 
 Acesse a demonstração:
 
-https://solare-energia.vercel.app
+https://solare-energia-seven.vercel.app/
 
 ```
